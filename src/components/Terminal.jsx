@@ -6,17 +6,17 @@ const commands = {
     description: 'Show all available commands',
     output: `
 ╔═══════════════════════════════════════════════════════════╗
-║              AVAILABLE COMMANDS                            ║
+║              AVAILABLE COMMANDS                           ║
 ╠═══════════════════════════════════════════════════════════╣
-║  whoami      - About me                                    ║
+║  whoami      - About me                                   ║
 ║  skills      - View my technical skills                   ║
 ║  projects    - View my projects                           ║
 ║  hackathons  - View hackathon achievements                ║
-║  contact     - Get contact information                   ║
+║  contact     - Get contact information                    ║
 ║  clear       - Clear terminal                             ║
-║  matrix      - Enter the Matrix...                         ║
-║  sudo        - [Easter Egg]                                ║
-║  exit        - Close terminal                              ║
+║  matrix      - Enter the Matrix...                        ║
+║  sudo        - [Easter Egg]                               ║
+║  exit        - Close terminal                             ║
 ╚═══════════════════════════════════════════════════════════╝
     `
   },
@@ -24,15 +24,15 @@ const commands = {
     description: 'About me',
     output: `
 ╔═══════════════════════════════════════════════════════════╗
-║                    ABOUT ME                                  ║
+║                    ABOUT ME                               ║
 ╠═══════════════════════════════════════════════════════════╣
-║  Name:    Shruti                                             ║
-║  Role:    Full Stack Developer                              ║
-║  Location: India                                             ║
-║                                                          ║
-║  A passionate developer skilled in building                ║
+║  Name:    Vijayalaxmi Punekar                             ║
+║  Role:    Full Stack & Android Developer                  ║
+║  Location: Solapur, Maharashtra, India                    ║
+║                                                           ║
+║  A passionate developer skilled in building               ║
 ║  innovative solutions. Always eager to learn              ║
-║  and explore new technologies.                              ║
+║  and explore new technologies.                            ║
 ╚═══════════════════════════════════════════════════════════╝
     `
   },
@@ -40,61 +40,65 @@ const commands = {
     description: 'View technical skills',
     output: `
 ╔═══════════════════════════════════════════════════════════╗
-║                    SKILLS                                   ║
+║                    SKILLS                                 ║
 ╠═══════════════════════════════════════════════════════════╣
-║  Frontend:    React.js, HTML/CSS, JavaScript, Tailwind     ║
+║  Frontend:    React.js, HTML/CSS, JavaScript, Tailwind    ║
 ║  Backend:     Node.js, Python, Express, MongoDB           ║
-║  Tools:       Git, VS Code, Docker, AWS                    ║
-║  Database:    MongoDB, PostgreSQL, MySQL                   ║
-║  Other:       REST APIs, GraphQL, CI/CD                     ║
+║  Tools:       Git, VS Code, Docker, AWS                   ║
+║  Database:    MongoDB, MySQL                              ║
+║  Other:       Android, Figma,                             ║
 ╚═══════════════════════════════════════════════════════════╝
     `
   },
   projects: {
     description: 'View projects',
     output: `
-╔═══════════════════════════════════════════════════════════╗
-║                    PROJECTS                                  ║
-╠═══════════════════════════════════════════════════════════╣
-║  1. SafeHER      - Women Safety App                         ║
-║     Technologies: React Native, Firebase, Python          ║
-║                                                          ║
-║  2. Placify      - AI Placement Platform                   ║
-║     Technologies: MERN Stack, Machine Learning            ║
-║                                                          ║
-║  3. Click&Shop   - E-commerce Platform                     ║
-║     Technologies: React, Node.js, Stripe                  ║
-╚═══════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║                    PROJECTS                                                      ║
+╠══════════════════════════════════════════════════════════════════════════════════╣
+║  1. SafeHER      - Women Safety App                                              ║
+║     Technologies: Android, Firebase, Kotlin, Java, Google Maps, Sensors          ║
+║                                                                                  ║
+║  2. Placify      - AI Placement Management Platform                              ║
+║     Technologies: React.js, Node.js, Express.js, MongoDB, Tailwind CSS, OpenAI   ║
+║                                                                                  ║
+║  3. Click&Shop   - E-commerce Platform                                           ║
+║     Technologies: React, Node.js, MongoDB                                        ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
     `
   },
   hackathons: {
     description: 'View hackathon achievements',
     output: `
 ╔═══════════════════════════════════════════════════════════╗
-║                  HACKATHONS                                 ║
+║                  HACKATHONS                               ║
 ╠═══════════════════════════════════════════════════════════╣
-║  1. Smart India Hackathon 2023                              ║
-║     Project: SafeHER - Women Safety Platform               ║
-║     Position: National Finalist                            ║
-║                                                          ║
-║  2. TechVenture Hackathon                                  ║
-║     Project: Placify - AI Placement Platform               ║
-║     Position: 1st Place                                    ║
+║  1. ORCHATHON 2K25-24                                     ║
+║     Project: SafeHER - Women Safety Platform              ║
+║     Position: Best Innovative Girls Team Award            ║
+║                                                           ║
+║  2. TECHATHON 1.0                                         ║
+║     Project: Placify - AI Placement Management Platform   ║
+║     Position: Participated                                ║
+║                                                           ║
+║  3. Smart India Hackathon 2025                            ║
+║     Project: Railvision                                   ║
+║     position: College level                               ║
 ╚═══════════════════════════════════════════════════════════╝
     `
   },
   contact: {
     description: 'Get contact information',
     output: `
-╔═══════════════════════════════════════════════════════════╗
-║                   CONTACT                                  ║
-╠═══════════════════════════════════════════════════════════╣
-║  Email:    shruti.dev@example.com                         ║
-║  GitHub:   github.com/shruti                               ║
-║  LinkedIn: linkedin.com/in/shruti                         ║
-║                                                          ║
-║  Feel free to reach out!                                   ║
-╚═══════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════════════╗
+║                   CONTACT                                              ║
+╠════════════════════════════════════════════════════════════════════════╣
+║  Email:    shrutip112005@gmail.com                                     ║
+║  GitHub:   https://github.com/ShrutiiPunekar                           ║
+║  LinkedIn: https://www.linkedin.com/in/vijayalaxmi-punekar-8613b1257/  ║
+║                                                                        ║
+║  Feel free to reach out!                                               ║
+╚════════════════════════════════════════════════════════════════════════╝
     `
   },
   sudo: {
@@ -105,12 +109,12 @@ const commands = {
     "With great power comes great responsibility."
     But since you're already here... 
     
-    ██╗   ██╗ ██████╗ ██╗██████╗ 
-    ██║   ██║██╔═══██╗██║██╔══██╗
-    ██║   ██║██║   ██║██║██║  ██║
-    ╚██╗ ██╔╝██║   ██║██║██║  ██║
-     ╚████╔╝ ╚██████╔╝██║██████╔╝
-      ╚═╝   ╚═════╝ ╚═╝╚═════╝ 
+    ██╗   ██╗ ██████╗  ██╗ ██████╗ 
+    ██║   ██║██╔═══██╗ ██║ ██╔══██╗
+    ██║   ██║██║   ██║ ██║ ██║  ██║
+    ╚██╗ ██╔╝██║   ██║ ██║ ██║  ██║
+     ╚████╔╝ ╚██████╔╝ ██║ ██████╔╝
+      ╚═╝   ╚═════╝ ╚══╝╚═════╝ 
     
     Nice try! 😏
     `
@@ -125,9 +129,9 @@ const commands = {
     ║    The Matrix has you...                                  ║
     ║    Follow the white rabbit.                               ║
     ║                                                           ║
-    ║    🐰🕳️                                                    ║
+    ║    🐰🕳️                                                  ║
     ║                                                           ║
-    ║    'Reality is merely a construct of your mind.'        ║
+    ║    'Reality is merely a construct of your mind.'          ║
     ║                                                           ║
     ╚═══════════════════════════════════════════════════════════╝
     `
@@ -147,8 +151,8 @@ function Terminal({ onCommand }) {
   const [history, setHistory] = useState([
     { type: 'output', content: `
   ╔═══════════════════════════════════════════════════════════╗
-  ║          DevOS Terminal v2.0.1                             ║
-  ║          Type 'help' for available commands                ║
+  ║          DevOS Terminal v2.0.1                            ║
+  ║          Type 'help' for available commands               ║
   ╚═══════════════════════════════════════════════════════════╝
     ` }
   ])

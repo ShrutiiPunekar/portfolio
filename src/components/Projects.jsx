@@ -68,7 +68,7 @@ const projects = [
       'Shopping cart & wishlist',
       'Order tracking system'
     ],
-    tech: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Redux'],
+    tech: ['React', 'Node.js', 'MongoDB'],
     hackathon: null,
     github: "https://github.com/ShrutiiPunekar/Click-Shop.git",
     demo: "",
