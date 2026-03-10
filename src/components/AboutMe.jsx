@@ -5,7 +5,7 @@ import { Github, Linkedin, Mail, MapPin, Code, Heart } from 'lucide-react'
 function AboutMe() {
   const [displayText, setDisplayText] = useState('')
   // const fullText = "Hi, I'm Shruti! A passionate Full Stack Developer who loves building innovative solutions. I specialize in creating seamless web experiences with modern technologies. When I'm not coding, you can find me exploring new tech trends or contributing to open-source projects."
-const fullText = "Hi, I'm Shruti — a Computer Science Engineering student passionate about building innovative technology solutions. I specialize in Android and Web Development, creating seamless and impactful digital experiences using modern technologies. I have worked on projects such as SafeHER (a women’s safety application), Placify (an AI-enabled placement management platform), and Click&Shop, where I applied my problem-solving skills to build real-world solutions. Beyond development, I am an aspiring Data Scientist with a strong interest in Machine Learning and AI. I am fascinated by how data-driven insights can solve real-world challenges in domains like healthcare, business analytics, and intelligent applications.\n\n Technologies & Interests \n Java | Python | Android Development | Web Development | Machine Learning | Data Science\n\nI am always eager to learn new technologies, collaborate on innovative projects, and contribute to meaningful tech solutions that create real impact.";  useEffect(() => {
+const fullText = "Hi, I'm Vijayalaxmi Punekar — a Computer Science Engineering student passionate about building innovative technology solutions. I specialize in Android and Web Development, creating seamless and impactful digital experiences using modern technologies. I have worked on projects such as SafeHER (a women’s safety application), Placify (an AI-enabled placement management platform), and Click&Shop, where I applied my problem-solving skills to build real-world solutions. Beyond development, I am an aspiring Data Scientist with a strong interest in Machine Learning and AI. I am fascinated by how data-driven insights can solve real-world challenges in domains like healthcare, business analytics, and intelligent applications.\n\n Technologies & Interests \n Java | Python | Android Development | Web Development | Machine Learning | Data Science\n\nI am always eager to learn new technologies, collaborate on innovative projects, and contribute to meaningful tech solutions that create real impact.";  useEffect(() => {
     let index = 0
     const timer = setInterval(() => {
       if (index <= fullText.length) {
@@ -78,7 +78,7 @@ const fullText = "Hi, I'm Shruti — a Computer Science Engineering student pass
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
             >
-              Shruti
+              Vijayalaxmi Punekar
             </motion.h1>
             <motion.div
               className="flex items-center gap-2 text-cyber-text-dim"
